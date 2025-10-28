@@ -1,0 +1,58 @@
+# Code Snippet Manager
+
+![Code Snippet Manager Screenshot](https://i.imgur.com/placeholder.png)  
+
+**A full-stack Django app to save, organize, and share code snippets with secure user authentication and full CRUD functionality.**
+
+**Live App:** Not Yet Deployed 
+
+
+---
+
+## Description
+
+**Code Snippet Manager** is a clean, responsive web app that allows developers to:
+
+- **Register** and **log in** securely using Django’s session-based authentication
+- **Create, edit, and delete** personal code snippets
+- **View public snippets** from all users
+- **Keep private snippets** in "My Snippets"
+- Enjoy a **dark, code-themed interface** with glassmorphism and high readability
+
+Built as a **complete Django MVP** with PostgreSQL, deployed on (yet to be determined)
+
+---
+### Run Locally
+Open in browser: http://127.0.0.1:8000
+
+### Technologies UsedTechnology
+
+Django 4.2
+Full-stack framework (backend + templates)
+PostgreSQL
+Production-ready database
+HTML + CSS
+Responsive UI with Flexbox
+Unsplash
+Background image
+
+
+
+### UI/UX Highlights
+
+Dark code-themed background with glassmorphism cards
+Flexbox layout for clean, centered content
+High-contrast text (WCAG 2.0 AA compliant)
+Pre-filled edit forms
+Only snippet owner sees Edit/Delete buttons
+Styled buttons with hover effects
+Navigation via links only — no URL typing
+Fully responsive on mobile & desktop
+No inaccessible text over images
+
+
+
+### Attributions
+Background Image:
+Unsplash - Émile Perron
+
