@@ -1,0 +1,16 @@
+{% extends 'snippets/base.html' %}
+{% block content %}
+<h2>Delete Snippet</h2>
+<p>Are you sure you want to delete:</p>
+<div class="card">
+    <h3>{{ snippet.title }}</h3>
+    <pre><code>{{ snippet.code }}</code></pre>
+    <small>by {{ snippet.owner.username }} | {{ snippet.created_at|date:"M d, Y" }}</small>
+</div>
+
+<form method="post">
+    {% csrf_token %}
+    <button type="submit" class="btn btn-danger">Yes, Delete</button>
+    <a href="{% url 'my_snippets' %}" class="btn">Cancel</a>
+</form>
+{% endblock %}
