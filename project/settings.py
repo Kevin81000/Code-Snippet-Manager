@@ -96,6 +96,17 @@ DATABASES = {
     }
 }
 
+# project/settings.py
+# ... after INSTALLED_APPS, DATABASES, etc. ...
+
+# Authentication
+LOGIN_URL = '/login/'           # ← ADD THIS
+LOGIN_REDIRECT_URL = '/'        # ← Already have
+LOGOUT_REDIRECT_URL = '/'
+
+
+
+
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
