@@ -6,7 +6,7 @@ from project.snippets import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('project.snippets.urls')),  # ← App URLs
+    path('', include('project.snippets.urls')),  
     path('login/', auth_views.LoginView.as_view(template_name='snippets/login.html'), name='login'),
     path('logout/', auth_views.LogoutView.as_view(), name='logout'),
     path('create/', views.snippet_create, name='snippet_create'),
