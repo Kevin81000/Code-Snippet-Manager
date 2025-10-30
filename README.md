@@ -1,1 +1,0 @@
-# Code-Snippet-Manager
