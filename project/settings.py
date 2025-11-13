@@ -12,9 +12,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-3q79qak8n7y0x++@lcc!*utba(tjyw8%87k0^a*1ns$2v^e)fj'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -49,15 +49,6 @@ MIDDLEWARE = [
 LOGIN_REDIRECT_URL = '/'  
 LOGOUT_REDIRECT_URL = '/'
 
-
-
-
-
-# CORS SETTINGS
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",   # React dev server
-    "http://127.0.0.1:3000",
-]
 
 # Allow credentials (for future login)
 CORS_ALLOW_CREDENTIALS = True
